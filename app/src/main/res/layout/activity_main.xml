@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationExample" >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTitulo"
+        android:hint="Titulo de Notificacion"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/costo"
+        android:hint="Costo"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/informacion"
+        android:hint="Informacion"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStackNotification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="STACK NOTIFICATION"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnCustomNotification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CUSTOM NOTIFICATION"
+            android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
